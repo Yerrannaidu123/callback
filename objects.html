@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="person"></p>
+   <script>
+    let person = {
+        name: "yerrannaidu",
+        phnone :9014905043,
+        fulldetails: function(){
+            return this.name + ""+ this.phnone;
+
+        }
+    } ; document.getElementById("person").innerHTML= person.fulldetails()
+    </script> 
+</body>
+</html>
